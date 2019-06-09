@@ -1,0 +1,22 @@
+name: shop_test
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  dio: ^2.0.9
+#  适配
+  flutter_swiper: ^1.1.4
+#  打电话
+  flutter_screenutil: ^0.5.1
+#  上拉加载 下拉刷新
+  flutter_easyrefresh: ^1.2.7
+  url_launcher: ^5.0.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
